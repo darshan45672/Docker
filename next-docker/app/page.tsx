@@ -22,9 +22,10 @@ async function Home() {
       <section className="max-w-7xl mx-auto">
         <div className="flex justify-between items-center">
           <h1 className="text-4xl font-bold mb-6">Registered Tasks</h1>
-          <Link href="/create" className="bg-blue-500 hover:bg-blue-700 text-dark font-bold py-2 px-4 rounded">
+          <Link href="/create" className="bg-blue-500 hover:bg-blue-700 text-back font-bold py-2 px-4 rounded">
             Create Task
           </Link>
+          {/* <button className="text-bl">ada</button> */}
         </div>
       
         <div className="grid grid-cols-1 gap-6 mt-5">
